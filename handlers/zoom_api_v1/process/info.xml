@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taskInfo version="1.0">
+  <info name="api_key" description="Api key of the Zoom App" type="encrypted"></info>
+  <info name="api_secret" description="Api Secret of the Zoom App" type="encrypted"></info>
+  <info name="enable_debug_logging" description="True or False">false</info>
+</taskInfo>
