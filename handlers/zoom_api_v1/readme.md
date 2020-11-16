@@ -1,5 +1,5 @@
 # Zoom API V1
-Used for requests to the Google Cloud Apps REST API Client
+Used for requests to the Zoom REST API Client
 
 ## Info Values
 **api_key**: An api key created by a zoom app.  Instruction on creating a [api key](https://marketplace.zoom.us/docs/guides/build/jwt-app)
@@ -33,5 +33,9 @@ Used for requests to the Google Cloud Apps REST API Client
 ## Results
 **Response Body**
   The returned value from the Rest Call (JSON format)
+**Response Code**
+  The HTTP response code.
+**Handler Error Message**
+  A message returned in the event of an error.  The handler must be configured for *Error Message*.
 
 ## Notes
