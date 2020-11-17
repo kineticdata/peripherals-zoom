@@ -12,7 +12,7 @@ Used for requests to the Zoom REST API Service.
 **Error Handling**: Select between returning an error message, or raising an exception.
 
 **Method**:
-  HTTP Method to use for the Kinetic Core API call being made.
+  HTTP Method to use for the Zoom API call being made.
   Options are:
   - GET
   - POST
@@ -20,7 +20,7 @@ Used for requests to the Zoom REST API Service.
   - PATCH
   - DELETE
 
-**Path** :The relative API path (to the `https://api.zoom.us/v2` info value) that will be called. This value should begin with a forward slash `/`.  A list of [zoom](https://marketplace.zoom.us/docs/api-reference/zoom-api) API paths. 
+**Path** :The relative API path (to `https://api.zoom.us/v2`) that will be called. This value should begin with a forward slash `/`.  A list of [zoom](https://marketplace.zoom.us/docs/api-reference/zoom-api) API paths. 
 
 **Body**: The body content (JSON) that will be sent for POST, PUT, and PATCH requests.
 

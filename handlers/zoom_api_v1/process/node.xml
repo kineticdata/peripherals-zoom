@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taskDefinition id="zoom_api" name="Zoom API v1" schema_version="1.0" version="1">
   <author>support@kineticdata.com</author>
-  <description>A generic rest handler.</description>
+  <description>A zoom api handler.</description>
   <helpurl></helpurl>
   <visible>false</visible>
   <deferrable>false</deferrable>
